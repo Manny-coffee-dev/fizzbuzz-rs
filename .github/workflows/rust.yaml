@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install rustup
       run: curl https://sh.rustup.rs -sSf | sh -s -- -y
-    - name: Build
+    - name: Test
       run: cargo test --verbose
 
   build:
