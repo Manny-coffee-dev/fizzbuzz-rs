@@ -1,0 +1,6 @@
+[package]
+name = "fizzbuzz-rs"
+version = "0.1.0"
+authors = ["Manny <manny.coffee-dev@pm.me>"]
+
+[dependencies]
